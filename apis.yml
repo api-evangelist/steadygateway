@@ -1,0 +1,53 @@
+name: SteadyGateway
+description: >-
+  Enterprise AI gateway providing access to leading AI models (GLM, Qwen, MiniMax, DeepSeek, Kimi) on official provider
+  APIs under one integration, with a 99.9% availability commitment. The OpenAI-compatible API is sales-gated with no
+  public technical surface; the only publicly verifiable artifact is an llms.txt.
+url: https://steadygateway.apievangelist.com/apis.yml
+created: '2026-08-13'
+modified: '2026-08-13'
+specificationVersion: '0.21'
+tags:
+  - Enterprise AI gateway
+  - LLM inference
+  - Model routing
+  - OpenAI-compatible API
+  - AI infrastructure
+  - Model access aggregation
+  - Qwen
+  - DeepSeek
+  - GLM
+  - Kimi
+  - MiniMax
+apis:
+  - name: SteadyGateway
+    description: >-
+      Enterprise AI gateway. No publicly consumable API surface is published; the only publicly reachable artifact is an
+      llms.txt linking to marketing/product pages.
+    humanURL: https://steadygateway.com
+    baseURL: https://steadygateway.com
+    tags:
+      - Enterprise AI gateway
+      - LLM inference
+      - Model routing
+      - OpenAI-compatible API
+      - AI infrastructure
+      - Model access aggregation
+      - Qwen
+      - DeepSeek
+      - GLM
+      - Kimi
+      - MiniMax
+    properties:
+      - type: LLMsTxt
+        url: https://steadygateway.com/llms.txt
+      - type: Documentation
+        url: https://steadygateway.com/guides
+maintainers:
+  - FN: SteadyGateway
+    url: https://steadygateway.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 70
+  at: '2026-08-13T03:09:02.736Z'
