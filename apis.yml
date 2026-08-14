@@ -1,11 +1,10 @@
 name: SteadyGateway
 description: >-
-  Enterprise AI gateway providing access to leading AI models (GLM, Qwen, MiniMax, DeepSeek, Kimi) on official provider
-  APIs under one integration, with a 99.9% availability commitment. The OpenAI-compatible API is sales-gated with no
-  public technical surface; the only publicly verifiable artifact is an llms.txt.
+  Enterprise AI gateway providing production access to leading LLMs (Qwen, DeepSeek, GLM, Kimi, MiniMax) through one
+  OpenAI-compatible interface. Contract-only, governed business workloads with no self-serve signup or public rate card.
 url: https://steadygateway.apievangelist.com/apis.yml
 created: '2026-08-13'
-modified: '2026-08-13'
+modified: '2026-08-14'
 specificationVersion: '0.21'
 tags:
   - Enterprise AI gateway
@@ -19,11 +18,18 @@ tags:
   - GLM
   - Kimi
   - MiniMax
+  - enterprise AI gateway
+  - LLM API
+  - OpenAI-compatible
+  - model aggregation
+  - contract-only
+  - agent-native
 apis:
   - name: SteadyGateway
     description: >-
-      Enterprise AI gateway. No publicly consumable API surface is published; the only publicly reachable artifact is an
-      llms.txt linking to marketing/product pages.
+      Contract-only OpenAI-compatible enterprise AI gateway. No publicly published API base URL, contract, or
+      credentials; the only publicly consumable interface is an llms.txt agent-native surface plus buyer-oriented
+      guides.
     humanURL: https://steadygateway.com
     baseURL: https://steadygateway.com
     tags:
@@ -38,6 +44,12 @@ apis:
       - GLM
       - Kimi
       - MiniMax
+      - enterprise AI gateway
+      - LLM API
+      - OpenAI-compatible
+      - model aggregation
+      - contract-only
+      - agent-native
     properties:
       - type: LLMsTxt
         url: https://steadygateway.com/llms.txt
@@ -49,5 +61,5 @@ maintainers:
 generated:
   by: apis.io/add
   model: claude-opus-4-8
-  confidence: 70
-  at: '2026-08-13T03:09:02.736Z'
+  confidence: 80
+  at: '2026-08-14T03:12:02.265Z'
