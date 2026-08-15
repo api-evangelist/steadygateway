@@ -1,10 +1,11 @@
 name: SteadyGateway
 description: >-
-  Enterprise AI gateway providing production access to leading LLMs (Qwen, DeepSeek, GLM, Kimi, MiniMax) through one
-  OpenAI-compatible interface. Contract-only, governed business workloads with no self-serve signup or public rate card.
+  Enterprise AI gateway providing production access to leading AI models (GLM, Qwen, MiniMax, DeepSeek, Kimi) through a
+  single OpenAI-compatible interface under one contract, with governed controls, per-customer isolation, and
+  availability commitments. Access is contract-gated with no self-serve signup or published API endpoint.
 url: https://steadygateway.apievangelist.com/apis.yml
 created: '2026-08-13'
-modified: '2026-08-14'
+modified: '2026-08-15'
 specificationVersion: '0.21'
 tags:
   - Enterprise AI gateway
@@ -24,6 +25,8 @@ tags:
   - model aggregation
   - contract-only
   - agent-native
+  - model routing/aggregation
+  - inference gateway
 apis:
   - name: SteadyGateway
     description: >-
@@ -55,11 +58,32 @@ apis:
         url: https://steadygateway.com/llms.txt
       - type: Documentation
         url: https://steadygateway.com/guides
+  - name: SteadyGateway Gateway
+    description: >-
+      OpenAI-compatible HTTP API for enterprise LLM inference. The API is contract-gated: the base URL is issued per
+      contract and there is no published OpenAPI spec or self-serve access. The only publicly reachable machine-readable
+      surface is the llms.txt.
+    humanURL: https://steadygateway.com/
+    baseURL: https://steadygateway.com
+    tags:
+      - enterprise AI gateway
+      - LLM API
+      - OpenAI-compatible
+      - AI infrastructure
+      - model routing/aggregation
+      - inference gateway
+    properties:
+      - type: LLMsTxt
+        url: https://steadygateway.com/llms.txt
+      - type: Documentation
+        url: https://steadygateway.com/guides
 maintainers:
   - FN: SteadyGateway
     url: https://steadygateway.com
+  - FN: SteadyGateway
+    url: https://steadygateway.com/
 generated:
   by: apis.io/add
   model: claude-opus-4-8
   confidence: 80
-  at: '2026-08-14T03:12:02.265Z'
+  at: '2026-08-15T03:09:16.258Z'
