@@ -1,0 +1,78 @@
+name: SteadyGateway
+description: >-
+  Enterprise AI gateway providing production access to leading model families — GLM, Qwen, MiniMax,
+  DeepSeek and Kimi — through a single OpenAI-compatible interface under one contract, with governed
+  controls, per-customer isolation, documented model-freshness evidence, and a 99.9% availability
+  commitment carrying tiered service credits. Access is CONTRACT-GATED: there is no self-serve
+  signup, no published base URL and no public OpenAPI definition. The base URL and credentials are
+  issued per contract, so the publicly consumable surface is an llms.txt plus buyer-oriented guides,
+  a model catalogue and freshness benchmarks.
+url: https://raw.githubusercontent.com/api-evangelist/steadygateway/refs/heads/main/apis.yml
+created: '2026-08-13'
+modified: '2026-08-17'
+specificationVersion: '0.21'
+tags:
+  - Enterprise AI gateway
+  - LLM inference
+  - Model routing
+  - OpenAI-compatible API
+  - AI infrastructure
+  - Model access aggregation
+  - Qwen
+  - DeepSeek
+  - GLM
+  - Kimi
+  - MiniMax
+  - contract-only
+  - agent-native
+apis:
+  - name: SteadyGateway Gateway
+    description: >-
+      OpenAI-compatible HTTP API for enterprise LLM inference across GLM, Qwen, MiniMax, DeepSeek and
+      Kimi. Contract-gated — the base URL and credentials are issued per contract, and no OpenAPI
+      definition is published. The only publicly reachable machine-readable surface is the llms.txt.
+    humanURL: https://steadygateway.com/guides
+    tags:
+      - Enterprise AI gateway
+      - LLM inference
+      - OpenAI-compatible API
+      - Model routing
+      - contract-only
+    properties:
+      - type: LLMsTxt
+        url: https://steadygateway.com/llms.txt
+      - type: Documentation
+        url: https://steadygateway.com/guides
+common:
+  - type: Website
+    url: https://steadygateway.com
+  - type: Documentation
+    url: https://steadygateway.com/guides
+  - type: Pricing
+    url: https://steadygateway.com/pricing
+  - type: LLMsTxt
+    url: https://steadygateway.com/llms.txt
+maintainers:
+  - FN: SteadyGateway
+    url: https://steadygateway.com
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 80
+  at: '2026-08-15T03:09:16.258Z'
+x-review:
+  reviewed: '2026-08-17'
+  reviewed_by: Kin Lane
+  decision: listed
+  reverses: 'dropped 2026-08-16 as no_consumable_surface'
+  note: >-
+    Dropped 2026-08-16 for having no machine-readable contract, then RELISTED on the standing rule
+    that a valid company on a domain it owns gets a listing and a low score. Reversal is public on
+    api-search/inbox#9, where the submitter had been told the opposite.
+
+
+    Three defects the submitter reported in that issue are fixed here rather than merely withdrawn:
+    the record carried TWO duplicate API entries for one gateway, duplicate maintainers, and a
+    baseURL pointing at the marketing site when the description itself states the base URL is
+    contract-issued. baseURL is now absent, which is the honest representation of a contract-gated
+    endpoint. The submitter's corrected description was used, minus its closing call to action.

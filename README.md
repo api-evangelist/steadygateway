@@ -1,25 +1,22 @@
-# SteadyGateway — not currently listed
+# SteadyGateway
 
-This repository is a placeholder. SteadyGateway is **not currently listed** in the APIs.io
-catalog. It is kept so inbound links do not dangle.
+Enterprise AI gateway — production access to GLM, Qwen, MiniMax, DeepSeek and Kimi through one
+OpenAI-compatible interface under a single contract.
 
-## Why
+**Listed on APIs.io:** https://apis.io/providers/steadygateway/
+**Website:** https://steadygateway.com
 
-APIs.io indexes machine-readable API contracts. At review on **2026-08-16**, SteadyGateway
-published no OpenAPI, AsyncAPI, or other machine-readable definition on any public host.
-Its own submission record marks has_public_api: false. It was submitted three times — 2026-08-13, 08-14 and 08-15 — and no contract appeared in any of them.
+Access is **contract-gated**: no self-serve signup, no published base URL, no public OpenAPI
+definition. The base URL and credentials are issued per contract, so the publicly consumable
+surface is an [llms.txt](https://steadygateway.com/llms.txt), buyer guides, a model catalogue and
+freshness benchmarks.
 
-The site, documentation and pricing are live and reachable — this is **not** a
-dead-service removal, and it is not a judgment about the company. There is simply no
-contract for the catalog to index, score, or hand to an agent.
+## Note on an earlier decision
 
-## This is not a delisting
+This provider was **dropped on 2026-08-16** for having no machine-readable contract, and this
+repository briefly carried a "not currently listed" notice. That was reversed on **2026-08-17**:
+a valid company on a domain it owns gets a listing and a low score, and roughly half the providers
+in this catalog carry no `apis[]` contract either. The reversal and the reasoning are public on
+[api-search/inbox#9](https://github.com/api-search/inbox/issues/9).
 
-SteadyGateway is **not** on the APIs.io do-not-list registry. No fee, no engagement, and no
-appeal is involved.
-
-**Publish an OpenAPI definition on a public URL and this re-enters through the normal
-harvest automatically, at no charge.** If you would like it picked up sooner than the
-next sweep, email kin@apievangelist.com with the URL and it will be indexed.
-
-— Kin Lane, API Evangelist · 2026-08-16
+Questions or corrections: open an issue here or email kin@apievangelist.com.
