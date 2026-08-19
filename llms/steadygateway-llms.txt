@@ -1,0 +1,23 @@
+# SteadyGateway
+
+> SteadyGateway is an enterprise AI gateway for production access to leading AI models through one OpenAI-compatible interface.
+
+## Product
+
+- [Overview](https://steadygateway.com/): Product positioning, operating model, and integration overview.
+- [Models](https://steadygateway.com/models): Commercial Qwen and open-weight model family coverage.
+- [Benchmarks](https://steadygateway.com/benchmarks): Public measurement methodology and reporting status.
+- [Freshness board](https://steadygateway.com/benchmarks/freshness): Model release-to-availability ledger, every cell sourced and dated — the primary citable dataset on this site.
+- [Pricing](https://steadygateway.com/pricing): Pricing inputs and production quote process.
+- [Guides](https://steadygateway.com/guides): Evidence-led evaluation and pricing-mechanics articles for enterprise AI gateway buyers.
+
+## Important qualifications
+
+- SteadyGateway is designed for governed business workloads, not free-tier API traffic.
+- Exact model and version availability varies by provider region and production agreement.
+- Public benchmark results are not published until methodology and baseline collection are complete.
+- Public per-token rates are not published until regional price verification is complete.
+
+## Contact
+
+- Email: hello@steadygateway.com
