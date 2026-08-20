@@ -13,6 +13,20 @@ modified: '2026-08-17'
 specificationVersion: '0.23'
 tags:
   - Enterprise AI gateway
+  - LLM Inference
+  - Model Routing
+  - OpenAI-compatible API
+  - AI Infrastructure
+  - Model access aggregation
+  - Qwen
+  - DeepSeek
+  - GLM
+  - Kimi
+  - MiniMax
+  - contract-only
+  - agent-native
+tags_raw:
+  - Enterprise AI gateway
   - LLM inference
   - Model routing
   - OpenAI-compatible API
@@ -33,6 +47,12 @@ apis:
       definition is published. The only publicly reachable machine-readable surface is the llms.txt.
     humanURL: https://steadygateway.com/guides
     tags:
+      - Enterprise AI gateway
+      - LLM Inference
+      - OpenAI-compatible API
+      - Model Routing
+      - contract-only
+    tags_raw:
       - Enterprise AI gateway
       - LLM inference
       - OpenAI-compatible API
