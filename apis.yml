@@ -8,6 +8,17 @@ description: >-
   issued per contract, so the publicly consumable surface is an llms.txt plus buyer-oriented guides,
   a model catalogue and freshness benchmarks.
 url: https://raw.githubusercontent.com/api-evangelist/steadygateway/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 created: '2026-08-13'
 modified: '2026-08-17'
 specificationVersion: '0.23'
