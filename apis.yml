@@ -24,8 +24,8 @@ modified: '2026-08-17'
 specificationVersion: '0.23'
 tags:
   - Enterprise AI gateway
-  - LLM inference
-  - Model routing
+  - LLM Inference
+  - Model Routing
   - OpenAI-compatible API
   - AI Infrastructure
   - Model access aggregation
@@ -59,9 +59,9 @@ apis:
     humanURL: https://steadygateway.com/guides
     tags:
       - Enterprise AI gateway
-      - LLM inference
+      - LLM Inference
       - OpenAI-compatible API
-      - Model routing
+      - Model Routing
       - contract-only
     tags_raw:
       - Enterprise AI gateway
