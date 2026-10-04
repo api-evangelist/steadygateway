@@ -24,7 +24,7 @@ modified: '2026-08-17'
 specificationVersion: '0.23'
 tags:
   - Enterprise AI gateway
-  - LLM Inference
+  - Inference
   - Model Routing
   - OpenAI-compatible API
   - AI Infrastructure
@@ -35,7 +35,7 @@ tags:
   - Kimi
   - MiniMax
   - contract-only
-  - agent-native
+  - Agent-Native
 tags_raw:
   - Enterprise AI gateway
   - LLM inference
@@ -50,6 +50,7 @@ tags_raw:
   - MiniMax
   - contract-only
   - agent-native
+  - LLM Inference
 apis:
   - name: SteadyGateway Gateway
     description: >-
@@ -59,7 +60,7 @@ apis:
     humanURL: https://steadygateway.com/guides
     tags:
       - Enterprise AI gateway
-      - LLM Inference
+      - Inference
       - OpenAI-compatible API
       - Model Routing
       - contract-only
@@ -69,6 +70,7 @@ apis:
       - OpenAI-compatible API
       - Model routing
       - contract-only
+      - LLM Inference
     properties:
       - type: LLMsTxt
         url: https://steadygateway.com/llms.txt
